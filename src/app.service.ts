@@ -31,7 +31,7 @@ export class AppService {
       if (answer == 'chaos')
         return {
           passed: true,
-          nextQuestion: '👌❎🔟🎨on 🟦🕊, ⬆️🖼. 👈☹️🆔',
+          nextQuestion: '👌❎🔟🎨on 🟦🕊, ⬆️🖼. 🔍🔟gon🆔',
         };
 
     return { passed: false, nextQuestion: undefined };
@@ -47,7 +47,7 @@ export class AppService {
   } {
     console.log(answerOne, answerTwo);
     if (this.solveQuestionTwo(answerTwo, answerOne).passed)
-      if (answer == '4047')
+      if (answer == '4344')
         return {
           passed: true,
           url: 'https://a57a880c-a90d-4a78-b2d8-6efaecff4a0b.vercel.app/f24760a5-ec25-4a66-844e-1a947201493a',
